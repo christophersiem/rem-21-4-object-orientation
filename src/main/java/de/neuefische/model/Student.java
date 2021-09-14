@@ -1,9 +1,11 @@
 package de.neuefische.model;
 
-public interface Student {
+public class Student {
 
-     String getName();
-     String getSubject();
+    private String name;
 
+    public String getName() {
+        return name;
+    }
 
 }

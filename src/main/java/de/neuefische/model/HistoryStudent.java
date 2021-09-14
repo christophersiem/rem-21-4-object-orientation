@@ -1,17 +1,8 @@
 package de.neuefische.model;
 
-public class HistoryStudent implements Student {
+public class HistoryStudent extends Student {
 
-    private String name;
-
-    @Override
-    public String getName() {
-        return name;
+    public int getNumberOfModules() {
+        return 12;
     }
-
-    @Override
-    public String getSubject() {
-        return "Roman Empire";
-    }
-
 }
